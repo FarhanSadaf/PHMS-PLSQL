@@ -42,8 +42,8 @@ INSERT INTO Clinic VALUES(7, 'Tasnim Dental Care', 'Saikh Para, Khulna', 'tasnim
 -- Inserting data into 'Appointment' table
 INSERT INTO Appointment VALUES(1, 1, 9, 5, '29-NOV-2021', 'YES');
 INSERT INTO Appointment VALUES(2, 1, 9, 5, '22-FEB-2022', 'NO');
-INSERT INTO Appointment VALUES(3, 4, 8, 6, '31-JAN-2022', 'NO');
+INSERT INTO Appointment VALUES(3, 4, 8, 6, '31-JAN-2022', NULL);
 INSERT INTO Appointment VALUES(4, 4, 3, 2, '31-JAN-2021', 'YES');
-INSERT INTO Appointment VALUES(5, 3, 9, 5, '20-FEB-2022', 'NO');
+INSERT INTO Appointment VALUES(5, 3, 9, 5, '20-FEB-2022', NULL);
 
 COMMIT;
